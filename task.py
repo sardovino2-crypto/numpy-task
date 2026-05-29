@@ -4,7 +4,10 @@ import numpy as np
 
 def prodotto_scalare(v1: list, v2: list) -> float:
     """Sub-task 1: Prodotto Scalare."""
-    pass
+    a=np.array(v1)
+    b=np.array(v2)
+    c=np.dot(a,b)
+    return c
 
 def rango_matrice(m: list) -> int:
     """Sub-task 2: Calcola il rango di una matrice."""
